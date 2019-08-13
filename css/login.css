@@ -5,14 +5,16 @@ html, body
     width: 100%;
     height: 100%;
     color: white;
+    overflow: hidden;
 }
 body
 {
     background: no-repeat right bottom url("../img/landing2.jpg") #1b1e3f;
+    
 }
 h1
 {
-    padding: 25% 0% 30% 0%;
+    padding: 25% 0% 25% 0%;
     margin: 0;
     font-family: 'Lacquer';
     font-size: 3.5rem;
@@ -20,6 +22,18 @@ h1
 input
 {
     margin-bottom: 10%;
+}
+::placeholder
+{
+    color: #ffffff3f;
+}
+::-webkit-input-placeholder
+{
+    color: #ffffff3f;
+}
+::-moz-placeholder
+{
+    color: #ffffff3f;
 }
 .login-container
 {
@@ -30,10 +44,22 @@ input
 }
 .text
 {
-    padding: 5% 0% 5% 0%;
-    width: 70%;
+    padding: 5% 5% 5% 5%;
+    width: 60%;
     border: 0;
-    background: #1b1e3f;    
+    background: #1b1e3f;  
+    color: #ffffffff;  
+    transition: 3s color ease;
+}
+.text:hover
+{
+    background: #121429;
+    box-shadow: 0 0 3em #12142978;
+}
+.text:focus
+{
+    box-shadow: 0 0 1em #ffffff5d;
+    border: 0.1rem solid #ffffff;
 }
 .left
 {
