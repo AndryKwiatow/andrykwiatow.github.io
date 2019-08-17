@@ -1,30 +1,128 @@
-html, body{
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-main{
+main {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: skyblue; 
+    /* background: skyblue;  */
 }
 
-nav{
+nav {
     height: 15%;
     width: 100%;
-    background: pink;
+    /* background: pink; */
 
 }
 
-section{
+/* clases btn */
+.btn-free {
+    background: #fff;
+    width: 50%;
+    height: 25%;
+    font-size: 0.8rem;
+    color: dimgray;
+    border: 1px solid dimgray;
+    border-radius: 1rem;
+}
+.btn-free:hover{
+        background-color: dimgray; /*dimgray*/
+        color: white;
+}
+
+#btn-premium{
+    background: #008cba;
+    width: 50%;
+    height: 10%;
+    font-size: 1rem;
+    color: white    ;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#btn-basic{
+    background: white;
+    width: 30%;
+    height: 10%;
+    font-size: 0.9rem;
+    color: #008cba;
+    border: 1px solid #008cba;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.img-logo {
+    width: 80%;
+    height: 80%;
+}
+
+.left {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    /* background: blue; */
+}
+
+.center {
+    width: 33%;
+    height: 100%;
+    /* background: rgb(0, 105, 128); */
+}
+
+.rigth {
+    width: 17%;
+    height: 100%;
+    /* text-align: right; */
+    padding-left: 1%;
+    color: aquamarine;
+    /* background: yellowgreen; */
+}
+
+.rigthv2 {
+    width: 17%;
+    height: 100%;
+    /* text-align: left; */
+    padding-right: 1%;
+    color: aquamarine;
+    /* background: darkorchid; */
+}
+
+section {
     height: 85%;
-    width: 100%;    
-    background: green;    
+    width: 100%;
+    /* background: green; */
+    position: relative;
+}
+
+.landing-info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70%;
+    width: 40%;
+    /* background: green; */
+    text-align: center;
+    padding: 3%;
+}
+
+.landing-info p{
+    /* margin-top: 5%; */
+    /* margin-bottom: 2%; */
 }
