@@ -14,7 +14,7 @@ body
 .page-header
 {
     width: 100vw; 
-    height: 70vw;
+    height: 100vh;
     overflow: hidden;
 }
 .background-image
