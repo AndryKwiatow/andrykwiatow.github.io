@@ -6,7 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/resources/FontAwesome/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/resources/FontAwesome/css/solid.css">
+  <link rel="stylesheet" href="assets/resources/FontAwesome/css/brands.css">
+  <link rel="stylesheet" href="assets/resources/FontAwesome/css/regular.css">
+  <link rel="stylesheet" href="css/portfolio.css">
   <title>Porfolio</title>
+
 </head>
 
 <body>
@@ -17,7 +23,7 @@
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a href="index.html" class="nav-link">
-              <img src="https://fakeimg.pl/250x50/">
+              <i class="fas fa-drafting-compass"></i>
             </a>
           </li>
         </ul>
@@ -40,24 +46,24 @@
     </div>
     </ul>
   </div>
-  <p>Hello, I see you're interested in my work. Please, feel free to comment my work and contact me if you want us to
+  <p class="text-center pt-3">Hello, I see you're interested in my work. Please, feel free to comment my work and contact me if you want us to
     work together!</p>
 
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="card">
-          <img src="https://fakeimg.pl/70x70/" class="card-img-top" alt="">
+        <div class="card project">
+          <img src="img/login.jpg" class="card-img-top" alt="">
           <div class="card-body">
             <div class="card-title">
-              <div class="row">
+              <div class="row ">
                 <div class="col">
-                  <h5><a href="login.html">Login website</a></h5>
+                  <h5><a href="login.html" class=>Login website</a></h5>
                 </div>
                 <div class="col">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
+                  <i class="far fa-heart btnLike"></i>
+                  <i class="far fa-comment-alt"></i>
+                  <i class="far fa-save"></i>
                 </div>
               </div>
             </div>
@@ -69,7 +75,7 @@
       </div>
       <div class="col">
         <div class="card">
-          <img src="https://fakeimg.pl/70x70/" class="card-img-top" alt="">
+          <img src="img/dropbox.JPG" class="card-img-top" alt="">
           <div class="card-body">
             <div class="card-title">
               <div class="row">
@@ -77,9 +83,9 @@
                   <h5><a href="projects/dropbox/dropbox.html">Dropbox</a></h5>
                 </div>
                 <div class="col">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
+                  <i class="far fa-heart btnLike"></i>
+                  <i class="far fa-comment-alt"></i>
+                  <i class="far fa-save"></i>
                 </div>
               </div>
             </div>
@@ -91,7 +97,7 @@
       </div>
       <div class="col">
         <div class="card">
-          <img src="https://fakeimg.pl/70x70/" class="card-img-top" alt="">
+          <img src="img/navbar.JPG" class="card-img-top" alt="">
           <div class="card-body">
             <div class="card-title">
               <div class="row">
@@ -99,9 +105,9 @@
                   <h5><a href="projects/nav-resp/nav-resp.html">Navbar</a></h5>
                 </div>
                 <div class="col">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
+                  <i class="far fa-heart btnLike"></i>
+                  <i class="far fa-comment-alt"></i>
+                  <i class="far fa-save"></i>
                 </div>
               </div>
             </div>
@@ -113,17 +119,17 @@
       </div>
       <div class="col">
         <div class="card">
-          <img src="https://fakeimg.pl/70x70/" class="card-img-top" alt="">
+          <img src="img/game.JPG" class="card-img-top" alt="">
           <div class="card-body">
             <div class="card-title">
               <div class="row">
                 <div class="col">
-                  <h5><a href="projects/nav-resp/nav-resp.html">Game OnOff</a></h5>
+                  <h5><a href="projects/game/onoff.html">Game OnOff</a></h5>
                 </div>
                 <div class="col">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
-                  <img src="https://fakeimg.pl/20x20/" alt="">
+                  <i class="far fa-heart btnLike"></i>
+                  <i class="far fa-comment-alt"></i>
+                  <i class="far fa-save"></i>
                 </div>
               </div>
             </div>
@@ -136,7 +142,12 @@
     </div>
   </div>
     
-    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+  <script src="js/portafolio.js"></script>  
     
 </body>
 
